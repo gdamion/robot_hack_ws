@@ -4,6 +4,7 @@ from record_voice import RecordAudio
 
 class VoiceRecognition(RecordAudio):
     def __init__(self):
+        RecordAudio.__init__(self)
         self.FOLDER_ID = 'b1g7ddufo2uj17ecq437'
         self.IAM_TOKEN = "CggaATEVAgAAABKABGOvdeSwb-9Ay5swyxrZ2PMH4MvN9osHtkKdaWR6Y7c5-WDkNZcbgLI5U8CLQGxkV6StaaLcDdSmEBF9MvkeQrR-V0Mu9ruC0\
 ukzJmuH0MV9jCQVIQFScBh95RjJO32JTYWzmom0m3FheF_ZQuRv_MQPku9qFzlxJZ5epIA_ye403OKT-iaokEGsY-DyNBIy1Zl6SkGpYnCTat2iLyWWyzuZF7h8D4rQ\
