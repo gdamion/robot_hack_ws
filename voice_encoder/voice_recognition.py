@@ -16,9 +16,9 @@ EI79t-wFGM7OuuwFIh8KFGFqZWpxMjRrcjhka2xhcGo1Y3NsEgdnb2R6aGFuWgAwAjgBSggaATEVAgAA
         self.url = "https://stt.api.cloud.yandex.net/speech/v1/stt:recognize"
 
     def get_voice(self):
-        #with open("speech.ogg", "rb") as f:
-            #data = f.read()
-        data = self.record()
+        self.record()
+        with open("speech.ogg", "rb") as f:
+            data = f.read()
         params = {'topic': 'general', 'folderId': self.FOLDER_ID, 'lang': 'ru-RU'}
         headers = {'Authorization': 'Bearer ' + self.IAM_TOKEN}
         x = requests.post(self.url, params=params, data=data, headers=headers)
