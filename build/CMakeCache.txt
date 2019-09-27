@@ -355,10 +355,10 @@ lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 
 //Value Computed by CMake
-move_BINARY_DIR:STATIC=/home/al/Code/robot_hack_ws/build/move
+my_move_BINARY_DIR:STATIC=/home/al/Code/robot_hack_ws/build/my_move
 
 //Value Computed by CMake
-move_SOURCE_DIR:STATIC=/home/al/Code/robot_hack_ws/src/move
+my_move_SOURCE_DIR:STATIC=/home/al/Code/robot_hack_ws/src/my_move
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -374,9 +374,6 @@ roscpp_traits_DIR:PATH=/opt/ros/melodic/share/roscpp_traits/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
-
-//The directory containing a CMake configuration file for rosmsg.
-rosmsg_DIR:PATH=/opt/ros/melodic/share/rosmsg/cmake
 
 //Value Computed by CMake
 rosserleds_BINARY_DIR:STATIC=/home/al/Code/robot_hack_ws/build/rosserled_pkg

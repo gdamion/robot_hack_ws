@@ -1,2 +1,2 @@
-empty_test_pkg:move:rosserled_pkg
+empty_test_pkg:my_move:rosserled_pkg
 -DCATKIN_DEVEL_PREFIX=/home/al/Code/robot_hack_ws/devel -DCMAKE_INSTALL_PREFIX=/home/al/Code/robot_hack_ws/install -G Unix Makefiles

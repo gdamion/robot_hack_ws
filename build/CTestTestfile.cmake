@@ -7,4 +7,4 @@
 subdirs("gtest")
 subdirs("empty_test_pkg")
 subdirs("rosserled_pkg")
-subdirs("move")
+subdirs("my_move")
