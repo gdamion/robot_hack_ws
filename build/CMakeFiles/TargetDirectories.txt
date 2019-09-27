@@ -78,3 +78,10 @@
 /home/al/Code/robot_hack_ws/build/my_move/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/al/Code/robot_hack_ws/build/my_move/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/al/Code/robot_hack_ws/build/my_move/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/al/Code/robot_hack_ws/build/my_move_py/CMakeFiles/install/strip.dir
+/home/al/Code/robot_hack_ws/build/my_move_py/CMakeFiles/edit_cache.dir
+/home/al/Code/robot_hack_ws/build/my_move_py/CMakeFiles/list_install_components.dir
+/home/al/Code/robot_hack_ws/build/my_move_py/CMakeFiles/test.dir
+/home/al/Code/robot_hack_ws/build/my_move_py/CMakeFiles/install/local.dir
+/home/al/Code/robot_hack_ws/build/my_move_py/CMakeFiles/rebuild_cache.dir
+/home/al/Code/robot_hack_ws/build/my_move_py/CMakeFiles/install.dir

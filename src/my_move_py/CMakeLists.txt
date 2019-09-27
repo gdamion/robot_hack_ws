@@ -105,7 +105,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
   INCLUDE_DIRS include
 #  LIBRARIES move
-  CATKIN_DEPENDS roscpp std_msgs geometry_msgs
+  CATKIN_DEPENDS rospy std_msgs geometry_msgs
 #  DEPENDS system_lib
 )
 
@@ -133,7 +133,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
- add_executable(move_node_py src/test_moving.cpp)
+ #add_executable(move_node_py src/node.py)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -143,12 +143,12 @@ include_directories(
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
- add_dependencies(move_node_py ${move_my_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+ #add_dependencies(move_node_py ${move_my_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
- target_link_libraries(move_node_py
-   ${catkin_LIBRARIES}
- )
+ #target_link_libraries(move_node_py
+#   ${catkin_LIBRARIES}
+ #)
 
 #############
 ## Install ##

@@ -1207,6 +1207,24 @@ clean: my_move/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory my_move_py
+
+# Convenience name for "all" pass in the directory.
+my_move_py/all:
+
+.PHONY : my_move_py/all
+
+# Convenience name for "clean" pass in the directory.
+my_move_py/clean:
+
+.PHONY : my_move_py/clean
+
+# Convenience name for "preinstall" pass in the directory.
+my_move_py/preinstall:
+
+.PHONY : my_move_py/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/al/Code/robot_hack_ws/build/empty_test_pkg/cmake_install.cmake")
   include("/home/al/Code/robot_hack_ws/build/rosserled_pkg/cmake_install.cmake")
   include("/home/al/Code/robot_hack_ws/build/my_move/cmake_install.cmake")
+  include("/home/al/Code/robot_hack_ws/build/my_move_py/cmake_install.cmake")
 
 endif()
 
