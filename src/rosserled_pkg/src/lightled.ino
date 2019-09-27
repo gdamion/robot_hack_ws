@@ -5,7 +5,7 @@
 
 #include <ros.h>
 #include <std_msgs/String.h>
-#include "lib/FastLED/FastLED.h"
+#include "../lib/FastLED/FastLED.h"
 #include <std_msgs/ByteMultiArray.h>
 
 #define DATA_PIN 30

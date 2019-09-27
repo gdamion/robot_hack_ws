@@ -1,0 +1,8 @@
+prefix=/home/al/Code/robot_hack_ws/install
+
+Name: rosserleds
+Description: Description of rosserleds
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/al/Code/robot_hack_ws/install/lib 
+Requires: 
