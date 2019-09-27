@@ -1,8 +1,0 @@
-prefix=/home/al/Code/robot_hack_ws/devel
-
-Name: my_move
-Description: Description of my_move
-Version: 0.0.0
-Cflags: -I/home/al/Code/robot_hack_ws/src/my_move/include
-Libs: -L/home/al/Code/robot_hack_ws/devel/lib 
-Requires: roscpp std_msgs geometry_msgs
