@@ -1,0 +1,3 @@
+[submodule "rosserleds/lib/FastLED"]
+	path = rosserleds/lib/FastLED
+	url = https://github.com/FastLED/FastLED.git
