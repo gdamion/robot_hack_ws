@@ -11,7 +11,6 @@ class RecordAudio:
         self.audio = pyaudio.PyAudio()
 
     def record(self):
-        self.device_list()
         # start Recording
         stream = self.audio.open(format=self.FORMAT, channels=self.CHANNELS,
                             rate=self.RATE, input=True,
