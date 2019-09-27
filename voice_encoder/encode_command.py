@@ -8,10 +8,10 @@ class EncodeCommands(VoiceRecognition):
 
     def encode(self):
         pattern = ur'принеси с кухни (\w*?) губку'
-        #pattern = ur'твой номер ([\w-]*)'
         prog = re.compile(pattern, re.UNICODE)
         while True:
             data = self.get_voice()
+            print(data)
             res = prog.match(data)
             if bool(res):
                 return res.group(1)

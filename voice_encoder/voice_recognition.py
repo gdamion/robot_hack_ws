@@ -16,7 +16,9 @@ EI79t-wFGM7OuuwFIh8KFGFqZWpxMjRrcjhka2xhcGo1Y3NsEgdnb2R6aGFuWgAwAjgBSggaATEVAgAA
         self.url = "https://stt.api.cloud.yandex.net/speech/v1/stt:recognize"
 
     def get_voice(self):
+        print "start recording..."
         self.record()
+        print "recorded"
         with open("speech.ogg", "rb") as f:
             data = f.read()
         params = {'topic': 'general', 'folderId': self.FOLDER_ID, 'lang': 'ru-RU'}
