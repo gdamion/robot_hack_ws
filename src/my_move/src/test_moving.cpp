@@ -6,7 +6,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-	ros::init(argc, argv, "def_floor_server");
+	ros::init(argc, argv, "move_node");
 
 	ros::NodeHandle n;
 	ros::Publisher move = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1000);
@@ -38,5 +38,6 @@ int main(int argc, char **argv)
 		ros::spinOnce();
 		++count;
 	}
+	ros::spin();
 	return (0);
 }

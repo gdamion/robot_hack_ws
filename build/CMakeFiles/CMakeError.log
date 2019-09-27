@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e99a1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e99a1.dir/build.make CMakeFiles/cmTC_e99a1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_910a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_910a6.dir/build.make CMakeFiles/cmTC_910a6.dir/build
 make[1]: Entering directory '/home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e99a1.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e99a1.dir/CheckSymbolExists.c.o   -c /home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_e99a1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e99a1.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e99a1.dir/CheckSymbolExists.c.o  -o cmTC_e99a1 
-CMakeFiles/cmTC_e99a1.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_910a6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_910a6.dir/CheckSymbolExists.c.o   -c /home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_910a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_910a6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_910a6.dir/CheckSymbolExists.c.o  -o cmTC_910a6 
+CMakeFiles/cmTC_910a6.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e99a1.dir/build.make:97: recipe for target 'cmTC_e99a1' failed
-make[1]: *** [cmTC_e99a1] Error 1
+CMakeFiles/cmTC_910a6.dir/build.make:97: recipe for target 'cmTC_910a6' failed
+make[1]: *** [cmTC_910a6] Error 1
 make[1]: Leaving directory '/home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_e99a1/fast' failed
-make: *** [cmTC_e99a1/fast] Error 2
+Makefile:126: recipe for target 'cmTC_910a6/fast' failed
+make: *** [cmTC_910a6/fast] Error 2
 
 File /home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ced13/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ced13.dir/build.make CMakeFiles/cmTC_ced13.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_a4a7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4a7c.dir/build.make CMakeFiles/cmTC_a4a7c.dir/build
 make[1]: Entering directory '/home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ced13.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ced13.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ced13
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ced13.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ced13.dir/CheckFunctionExists.c.o  -o cmTC_ced13 -lpthreads 
+Building C object CMakeFiles/cmTC_a4a7c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a4a7c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a4a7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4a7c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a4a7c.dir/CheckFunctionExists.c.o  -o cmTC_a4a7c -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ced13.dir/build.make:97: recipe for target 'cmTC_ced13' failed
-make[1]: *** [cmTC_ced13] Error 1
+CMakeFiles/cmTC_a4a7c.dir/build.make:97: recipe for target 'cmTC_a4a7c' failed
+make[1]: *** [cmTC_a4a7c] Error 1
 make[1]: Leaving directory '/home/al/Code/robot_hack_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ced13/fast' failed
-make: *** [cmTC_ced13/fast] Error 2
+Makefile:126: recipe for target 'cmTC_a4a7c/fast' failed
+make: *** [cmTC_a4a7c/fast] Error 2
 
 
