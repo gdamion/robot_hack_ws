@@ -1,5 +1,5 @@
 import rospy
-from std_msgs.msg import String
+from sensor_msgs.msg import LaserScan
 
 
 def callback(data):
@@ -8,7 +8,7 @@ def callback(data):
 
 def listener():
     rospy.init_node('listener', anonymous=True)
-    rospy.Subscriber("slam_gmapping", String, callback)
+    rospy.Subscriber("slam_gmapping", LaserScan, callback)
     rospy.spin()
 
 if __name__ == '__main__':
