@@ -8,7 +8,7 @@ def callback(data):
 
 def listener():
     rospy.init_node('listener', anonymous=True)
-    rospy.Subscriber("/cmd_vel", String, callback)
+    rospy.Subscriber("slam_gmapping", String, callback)
     rospy.spin()
 
 if __name__ == '__main__':
